@@ -1,0 +1,4 @@
+{
+	"name":"myModule",
+	"main":"./lib/textUtil.js"
+}

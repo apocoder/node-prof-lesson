@@ -1,0 +1,4 @@
+{
+	"name":"print_module",
+	"main":"./lib/print_module/index.js"
+}
