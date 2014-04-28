@@ -1,0 +1,5 @@
+Execute exterrnal commands using child_process.exec
+
+learning spawn
+
+kill process using signals

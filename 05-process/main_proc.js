@@ -12,11 +12,16 @@ setInterval(function  () {
 
 	child.stdout.once("data",function(data){
 		console.log("Child Process cevabı "+ number +
-			" : bu sayıya karşılık Bu :"+data);
+			" : bu sayıya karşılık Bu cevap :"+data);
 	});
+
+	child.on('exit', function(code) {
+	console.log('Child process ten çıkıldı.' + code); 
+});
 },1000);
 
 //Hata durumu
 child.stderr.on('data',function(data){
 	process.stdout.write(data);
 });
+
