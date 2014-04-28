@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title>Event Emitter </title>
+  
+ <script type="text/javascript" src="custom_class.js"</script>
+  <script type="text/javascript">
+  	//Clinents listening "custom event"
+	var myInstance =new CustomClass();
+	myInstance.on('custom event',function  (str1,str2) {
+		console.log('custom event ı mızı str1 : %s ve str2 : %s ile yakaladık');
+	})
+  </script>
+</head>
