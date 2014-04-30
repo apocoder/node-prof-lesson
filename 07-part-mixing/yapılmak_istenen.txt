@@ -1,0 +1,4 @@
+ bir dosyaya 8 sn. de bir  o anki date i yazıp
+sonrasında bunu stream edip gelen buffer tipini string olarak
+ekrana yazan child processli 
+bir iş.
