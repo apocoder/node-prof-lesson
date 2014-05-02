@@ -1,6 +1,13 @@
-var net = require('net');
 
+//Bu iki satırı aklımızdan çıkarmayacagız
+var net = require('net');
 var server=net.createServer();
+
+//server objesinin close ve error event ları var
+//data okumak istiyorsak server objesinin connection even tından socket objesini alıp
+//ordanda on data yaptıgımızda data elimizde olacaktır.
+//interpreter görevi üstlenmesini istiyorsakta bunu çeşitli case ler ile sağlayabiliriz
+//şuan sadece quit olayını yaptım değişik örneklerde yapılabilinir.
 
 var sockets= [];
 
