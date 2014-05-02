@@ -32,11 +32,11 @@ server.on('connection',function  (socket) {
 
 			//And echo tcp :) Bu bölümde bir hata var ' Object has no method 'trim' diye
 			//Biara bakıp düzelteceğim.
-		if (data.trim().toLowerCase()==='quit')
+		/*if (data.trim().toLowerCase()==='quit')
 		 {
 		 	socket.write('güle gülee..');
 		 	return socket.end();
-		 }
+		 }*/
 
 			console.log('Gelen data :'+data);
 			sockets.forEach(function  (otherSocket) {
